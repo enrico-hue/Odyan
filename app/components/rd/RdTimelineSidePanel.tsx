@@ -44,9 +44,9 @@ export function RdTimelineSidePanel({ selected, onClose }: Props) {
             />
             <Field
               label="Country"
-              value={t.country}
+              value={"—"}
             />
-            <Field label="City" value={t.city} />
+            <Field label="City" value={"—"} />
             <Field
               label="Type"
               value={t.type.replace("-", " ")}
@@ -104,7 +104,8 @@ export function RdTimelineSidePanel({ selected, onClose }: Props) {
               Name
             </div>
             <div className="text-sm font-medium">
-              {c.name}
+              {"Campaign"}
+
             </div>
           </div>
           <div className="mb-3 grid grid-cols-2 gap-2">

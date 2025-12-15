@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* ODYAN global styles – simple, reliable */
+body {
+  background-color: #020617; /* dark slate style */
+  color: #e5e7eb;           /* light text */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
